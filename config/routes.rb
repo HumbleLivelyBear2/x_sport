@@ -1,4 +1,15 @@
 XSport::Application.routes.draw do
+  
+  get "statics/contact"
+  get "statics/about_us"
+  get "statics/privacy"
+  get "statics/secure"
+  
+  match 'contact' => 'statics#contact', :as => :contact
+  match 'about_us' => 'statics#about_us', :as => :about_us
+  match 'privacy' => 'statics#privacy', :as => :privacy
+  match 'secure' => 'statics#secure', :as => :secure
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

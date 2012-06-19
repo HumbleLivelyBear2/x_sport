@@ -16,7 +16,7 @@ hr{
 
 /*header*/
 #header{
-	background-image:url(images/bg_top.jpg);
+	background-image:url(bg_top.jpg);
 	background-repeat:repeat-x;
 	height:55px;
 	width:100%;
@@ -28,14 +28,14 @@ hr{
 	padding-top:5px;
 }
 #logo{
-	background-image:url(images/logo.jpg);
+	background-image:url(logo.jpg);
 	width:302px;
 	height:50px;
 	text-indent:-9999px;
 	float:left;
 }
 #search_section{
-	background-image:url(images/search.jpg);
+	background-image:url(search.jpg);
 	width:313px;
 	height:50px;
 	text-indent:-9999px;
@@ -44,7 +44,7 @@ hr{
 	float:left;
 }
 #fb_login{
-	background-image:url(images/fb_login.jpg);
+	background-image:url(fb_login.jpg);
 	width:94px;
 	height:26px;
 	float:right;
@@ -67,7 +67,7 @@ hr{
 	margin-left:2px;
 }
 #keep_login h5{
-	background-image:url(images/member_about/sell_bg.png);
+	background-image:url(member_about/sell_bg.png);
 	width:70px;
 	height:30px;
 	float:left;
@@ -76,7 +76,7 @@ hr{
 	margin-top:10px;
 }
 #keep_login h6{
-	background-image:url(images/member_about/personal_bg.png);
+	background-image:url(member_about/personal_bg.png);
 	width:80px;
 	height:30px;
 	float:left;
@@ -90,7 +90,7 @@ hr{
 #content{
 	overflow: hidden;
 	width:100%;
-	background-image:url(images/bg_body.jpg);
+	background-image:url(bg_body.jpg);
 }
 #contents{
 	width:1000px;
@@ -121,7 +121,7 @@ hr{
 	border-color:rgba(181,205,117,0.8);
 }
 #classes_left{
-	background-image:url(images/classes.png);
+	background-image:url(classes.png);
 	width:32px;
 	height:358px;
 	float:left;
@@ -129,7 +129,7 @@ hr{
 }
 #classes_right p{
 	padding-top:5px;
-	line-height:25px;
+	line-height:26px;
 	color:rgba(129,129,129,1);
 }
 #line{
@@ -139,14 +139,14 @@ hr{
 	background:rgba(181,205,117,0.8);
 }
 #select_new{
-	background-image:url(images/bg_green.png);
+	background-image:url(bg_green.png);
 	width:90px;
 	height:40px;
 	float:left;
 	line-height:40px;
 }
 #select_old{
-	background-image:url(images/bg_gray.png);
+	background-image:url(bg_gray.png);
 	width:90px;
 	height:40px;
 	float:left;
@@ -165,7 +165,7 @@ hr{
 	border-color:rgba(181,205,117,0.8);
 }
 #fans_section_top{
-	background-image:url(images/bg_green_fans.png);
+	background-image:url(bg_green_fans.png);
 	width:180px;
 	height:41px;
 }
@@ -173,7 +173,7 @@ hr{
 	line-height:40px;
 }
 #top_classes{
-	background-image:url(images/bg_green_fans.png);
+	background-image:url(bg_green_fans.png);
 	width:180px;
 	height:41px;
 }
@@ -197,20 +197,20 @@ hr{
 /*	background:green;*/
 }
 .promote_a{
-	background-image:url(images/promote1.jpg);
+	background-image:url(promote1.jpg);
 	height:370px;
 	width:600px;
 	float:left;
 }
 .promote_b{
-	background-image:url(images/promote2.jpg);
+	background-image:url(promote2.jpg);
 	width:200px;
 	height:180px;
 	margin-left:10px;
 	float:left;
 }
 .promote_c{
-	background-image:url(images/promote2.jpg);
+	background-image:url(promote2.jpg);
 	width:200px;
 	height:180px;
 	margin-left:10px;
@@ -223,6 +223,8 @@ hr{
 	float:right;
 	line-height:41px;
 	margin-right:10px;
+	text-decoration: underline;
+/*	color:rgba(102,165,219,1);*/
 }
 #goods{
 	margin:0px 0 10px 0;
@@ -237,7 +239,7 @@ hr{
 	text-align:center;
 }
 #goods_top{
-	background-image:url(images/bg_main.png);
+	background-image:url(bg_main.png);
 	width:810px;
 	height:41px;
 	margin: -2px 0 0 -2px;
@@ -263,7 +265,7 @@ hr{
 	line-height:40px;
 }
 #order_img{
-	background-image:url(images/bg_order.png);
+	background-image:url(bg_order.png);
 	width:144px;
 	height:23px;
 	float:right;
@@ -277,7 +279,7 @@ hr{
 	margin-left:10px;	
 }
 .order_logo{
-	background-image:url(images/order_logo.png);
+	background-image:url(order_logo.png);
 	width:23px;
 	height:23px;
 }
@@ -328,7 +330,7 @@ hr{
 }
 /*footer*/
 #footer{
-	background-image:url(images/bg_footer.jpg);
+	background-image:url(bg_footer.jpg);
 	background-repeat:repeat-x;
 	height:104px;
 	width:100%;
@@ -342,15 +344,21 @@ hr{
 #footer_left{
 	float:left;
 }
+#footer_left p{
+	float:left;
+	display:inline-block;
+	color:white;
+	margin-left:10px;
+}
 #copyright{
-	background-image:url(images/copyright.jpg);
-	margin-top:5px;
+	background-image:url(copyright.jpg);
+	margin-top:26px;
 	text-indent:-99999px;
 	width:314px;
 	height:16px;
 }
 #footer_right{
-	background-image:url(images/fb_fans.png);
+	background-image:url(fb_fans.png);
 	width:31px;
 	height:31px;
 	float:right;
@@ -398,7 +406,7 @@ hr{
 #goods_condition{
 	width:270px;
 	height:40px;
-	background-image:url(images/intro/intro_green_circle.png);
+	background-image:url(intro/intro_green_circle.png);
 	background-repeat:no-repeat;
 	margin: 20px 0 0 10px;
 }
@@ -419,7 +427,7 @@ hr{
 #seller{
 	width:270px;
 	height:40px;
-	background-image:url(images/intro/intro_orange_circle.png);
+	background-image:url(intro/intro_orange_circle.png);
 	background-repeat:no-repeat;
 	margin: 5px 0 0 10px;
 }
@@ -440,7 +448,7 @@ hr{
 .pay_and_catch{
 	width:270px;
 	height:60px;
-	background-image:url(images/intro/intro_gray_circle.png);
+	background-image:url(intro/intro_gray_circle.png);
 	background-repeat:no-repeat;
 	margin: 5px 0 0 10px;
 	color:gray;
@@ -474,7 +482,7 @@ hr{
 #buy_button{
 	width:300px;
 	height:90px;
-	background-image:url(images/intro/buy_button.png);
+	background-image:url(intro/buy_button.png);
 	background-repeat:no-repeat;
 	margin:20px 0 0 -11px;
 }
@@ -490,7 +498,7 @@ hr{
 	margin-left:10px;
 }
 #top_setting p{
-	background-image:url(images/intro/bottom_orange_bg.png);
+	background-image:url(intro/bottom_orange_bg.png);
 	width:100px;
 	height:41px;
 	display:inline-block;
@@ -515,7 +523,7 @@ hr{
 	height:41px;
 	line-height:41px;
 	text-align:center;
-	background-image:url(images/confirm/confirm_orange.png);
+	background-image:url(confirm/confirm_orange.png);
 	float:left;
 }
 #top_confirm h6{
@@ -523,7 +531,7 @@ hr{
 	height:41px;
 	line-height:41px;
 	text-align:center;
-	background-image:url(images/confirm/confirm_gray.png);
+	background-image:url(confirm/confirm_gray.png);
 	float:left;
 	margin: 0 0 0 40px;
 }
@@ -627,7 +635,7 @@ hr{
 	margin: 20px 0 0 20px;
 }
 #contact_name p{
-	background-image:url(images/contact/name.png);
+	background-image:url(contact/name.png);
 	width:89px;
 	height:29px;
 	text-indent:-9999px;
@@ -646,7 +654,7 @@ hr{
 	margin: 20px 0 0 20px;
 }
 #contact_email p{
-	background-image:url(images/contact/email.png);
+	background-image:url(contact/email.png);
 	width:89px;
 	height:29px;
 	text-indent:-9999px;
@@ -659,7 +667,7 @@ hr{
 	margin: 20px 0 0 20px;
 }
 #contact_content p{
-	background-image:url(images/contact/content.png);
+	background-image:url(contact/content.png);
 	width:89px;
 	height:29px;
 	text-indent:-9999px;
