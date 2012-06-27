@@ -1,15 +1,27 @@
 XSport::Application.routes.draw do
   
-  get "statics/contact"
-  get "statics/about_us"
-  get "statics/privacy"
-  get "statics/secure"
   
+  get "members/member_about"
+  get "members/member_evaluation"
+  get "members/member_products"
+
+  get "personals/profile"
+  get "personals/products"
+  get "personals/evaluation"
+  get "personals/trade_record"
+  get "personals/trade_record2"
+  get "personals/whisper"
+  get "personals/ask_answer"
+  get "personals/ready_to_sell"
+
   match 'contact' => 'statics#contact', :as => :contact
   match 'about_us' => 'statics#about_us', :as => :about_us
   match 'privacy' => 'statics#privacy', :as => :privacy
   match 'secure' => 'statics#secure', :as => :secure
-
+  match 'index' => 'pages#index', :as => :index
+  match 'introduce' => 'pages#introduce', :as => :introduce
+  
+  root :to => 'pages#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -59,7 +71,7 @@ XSport::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'pages#index'
+  
 
   # See how all your routes lay out with "rake routes"
 

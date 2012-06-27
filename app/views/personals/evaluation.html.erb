@@ -1,0 +1,96 @@
+<%= javascript_include_tag "member_evalue.js"%>
+<div id="wrapper">
+
+		<div id="content">
+			<div id="contents">
+			<div id="left">			
+				<div id="personal_profile_section">
+					<div id="personal_section_top"><p>Jason Ko</p></div>
+					<div id="personal_picture">
+						<div id="photo_bg"><img src="/assets/member_about/person_photo.jpg" height="140" width="140"></div>
+						<div id="up_load_logo"><img src="/assets/personal_evaluation/up_load.png" height="29" width="34"></div>
+					</div>
+					<p><%= link_to('新品上架', :controller=>"personals", :action=>"ready_to_sell")%></p>
+					<p><%= link_to('我的商品', :controller=>"personals", :action=>"products")%></p>
+					<p><%= link_to('我的評價', :controller=>"personals", :action=>"evaluation")%></p>
+					<p><%= link_to('我的購買紀錄', :controller=>"personals", :action=>"trade_record")%></p>
+					<p><%= link_to('悄悄話', :controller=>"personals", :action=>"whisper")%></p>
+					<p><%= link_to('問與答', :controller=>"personals", :action=>"ask_answer")%></p>
+				</div>
+				<div id="fans_section">
+					<div id="fans_section_top"><p>成為X-Sport粉絲</p></div>
+				</div>
+			</div>
+			<div id="right">
+				<div class="pp">> Jason Ko的評價</div>
+				<div id="goods">
+					<div id="goods_top">
+						<div id="goods_top_p"><p>Jason Ko的評價</p></div>
+					</div>
+					<div id="member_evaluation_section">
+						<div id="evaluation_static">
+							<div class="evaluation_rec">
+								<img src="/assets/member_evaluation/good.png" width="22" height="23">
+								<p>優良</p>
+								<div class="number_rec"><h3 style="color:green;">150</h3></div>
+							</div>
+							<div class="evaluation_rec">
+								<img src="/assets/member_evaluation/soso.png" width="22" height="23">
+								<p>普通</p>
+								<div class="number_rec"><h3 style="color:blue;">10</h3></div>
+							</div>
+							<div class="evaluation_rec">
+								<img src="/assets/member_evaluation/sock.png" width="22" height="23">
+								<p>差勁</p>
+								<div class="number_rec"><h3 style="color:orange;">10</h3></div>
+							</div>
+						</div>
+
+						<div id="evaluation_content">
+							<div id="sell_evaluation_head">
+								<p>賣的評價</p>
+								<hr style='width:800px'>
+							</div>
+							<div id="sell_evalution_content">
+								<div class="evaluation_content_rec">
+									<img src="/assets/member_evaluation/good.png" width="22" height="23">
+									<p>賣家:Jason Ko | 商品名稱: OGK單車手套 | 金額:$500</p>
+									<div id="opinion">
+										<p>意見</p>
+										<div id="opinion_box"><p>值得推薦的好賣家</p></div>
+									</div>
+								</div>
+								<hr>
+								<div class="evaluation_content_rec">
+									<img src="/assets/member_evaluation/good.png" width="22" height="23">
+									<p>賣家:Jason Ko | 商品名稱: OGK單車手套 | 金額:$500</p>
+									<div id="opinion">
+										<p>意見</p>
+										<div id="opinion_box"><p>值得推薦的好賣家</p></div>
+									</div>
+								</div>
+								<hr>
+							</div>
+							<div id="buy_evaluation_head">
+								<p>買的評價</p>
+								<hr style='width:800px'>
+							</div>
+							<div id="buy_evalution_content">
+								this is buy value
+								<hr>
+							</div>
+						</div> 
+						<!-- end of evaluation content -->
+
+						<div id="evaluation_bottom">
+							<p>近7天</p>
+							<p>近30天</p>
+							<p>全部</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>		
+
+</div>

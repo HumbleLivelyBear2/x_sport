@@ -6,31 +6,35 @@
 #wrapper{
 	width:100%;
 	margin:0 auto;
-	background-color:#fbde86;
+/*	background-color:#fbde86;*/
 }
 hr{
 	border-style:solid;
 	border-width:1px;
 	border-color:rgba(205,205,205,1);
 }
+a:link{text-decoration:none;color:#0000FF}
+a:visited{text-decoration:none;color:#0000FF}
+a:active{text-decoration:none;color:#0000FF}
+a:hover{text-decoration:none;color:#FF0000}
 
 /*header*/
 #header{
 	background-image:url(bg_top.jpg);
 	background-repeat:repeat-x;
-	height:55px;
+	height:65px;
 	width:100%;
 }
 #header_content{
 	width:1000px;
 	color:white;
 	margin:0 auto;
-	padding-top:5px;
+	padding-top:8px;
 }
 #logo{
 	background-image:url(logo.jpg);
-	width:302px;
-	height:50px;
+	width:300px;
+	height:55px;
 	text-indent:-9999px;
 	float:left;
 }
@@ -218,6 +222,9 @@ hr{
 	float:left;
 }
 /* goods */
+#products{
+	margin-left:5px;
+}
 #filter_select p{
 	display:inline-block;
 	float:right;
@@ -286,12 +293,12 @@ hr{
 .order_p{
 	float:left;
 }
-#item_1{
+/*#item_1{
 	width:198px;
 	height:240px;
 	float:left;
 	margin-left:4px;	
-}
+}*/
 #item{
 	width:198px;
 	height:240px;
@@ -507,6 +514,65 @@ hr{
 	line-height:41px;
 	color:white;
 }
+#good_profile_head{
+	width:100%;
+	height:41px;
+	margin-left:10px;
+}
+#good_profile_head p{
+	background-image:url(intro/bottom_orange_bg.png);
+	width:100px;
+	height:41px;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:41px;
+	color:white;
+}
+#ask_answers_head{
+	width:100%;
+	height:41px;
+	margin-left:10px;
+}
+#ask_answers_head p{
+	background-image:url(intro/bottom_orange_bg.png);
+	width:100px;
+	height:41px;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:41px;
+	color:white;
+}
+ul#nav{
+	width:200px;
+	height:41px;
+	margin-left:10px;
+}
+ul.goods_profile{
+	background-image:url(intro/nav.png);
+}
+ul.ask_answers{
+	background-image:url(intro/nav_ask.png);
+}
+#nav li{
+/*	background-image:url(intro/bottom_gray_bg.png);*/
+	width:100px;
+	height:41px;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:41px;
+	color:white;
+}
+#nav hr{
+	width:780px;
+}
+#nav a{
+	color:white;
+}
+
+
 /* confirm */
 #comfirm_section{
 	width:100%;
@@ -759,10 +825,7 @@ hr{
 	float:left;
 	margin-top:8px;
 }
-#evalution_content{
-	width:100%;
-	height:600px;
-}
+
 .evaluation_content_rec{
 	width:780px;
 	height:60px;
@@ -804,6 +867,7 @@ hr{
 #evaluation_bottom{
 	width:100%;
 	height:45px;
+	margin-top:20px;
 }
 #evaluation_bottom p{
 	background-image:url(images/member_evaluation/main_bottom_bg.png);;
@@ -814,10 +878,64 @@ hr{
 	margin-right:10px;
 	color:gray;
 }
+#sell_evaluation_head{
+	width:100%;
+	height:41px;
+/*	margin-left:10px;*/
+}
+#sell_evaluation_head p{
+	background-image:url(intro/bottom_orange_bg.png);
+	width:100px;
+	height:41px;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:41px;
+	color:white;
+	margin-left:10px;
+}
+#buy_evaluation_head{
+	width:100%;
+	height:41px;
+/*	margin-left:10px;*/
+	margin-top:50px;
+}
+#buy_evaluation_head p{
+	background-image:url(intro/bottom_orange_bg.png);
+	width:100px;
+	height:41px;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:41px;
+	color:white;
+	margin-left:10px;
+}
+ul.sell_evalution_content{
+	background-image:url(intro/nav.png);
+}
+ul.buy_evalution_content{
+	background-image:url(intro/nav_ask.png);
+}
+
 /* member products*/
 #member_products{
-	height:525px;
 	width:100%;
+	margin-left:5px;
+	overflow:auto;
+	margin-top:10px;
+}
+#on_sale{
+	width:100%;
+	overflow:auto;
+}
+#not_on_sale{
+	width:100%;
+	overflow:auto;
+}
+#sale_close{
+	width:100%;
+	overflow:auto;
 }
 
 /* personal profile*/
@@ -836,8 +954,11 @@ hr{
 	line-height:28px;
 	color:gray;
 }
+#personal_profile_section a{
+	color:gray;
+}
 #personal_section_top{
-	background-image:url(images/bg_green_fans.png);
+	background-image:url(bg_green_fans.png);
 	width:180px;
 	height:41px;
 }
@@ -896,17 +1017,53 @@ hr{
 	z-index:2;
 	margin:100px 0 0 100px;
 }
+/* personal products*/
+ul#nav_three{
+	width:300px;
+	height:41px;
+	margin-left:10px;
+	margin-top:15px;
+}
+ul.on_sale{
+	background-image:url(nav_three.png);
+}
+ul.not_on_sale{
+	background-image:url(nav_three2.png);
+}
+ul.sale_close{
+	background-image:url(nav_three3.png);
+}
+#nav_three li{
+	width:100px;
+	height:41px;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	line-height:41px;
+	color:white;
+}
+#nav_three hr{
+	width:785px;
+}
+#nav_three a{
+	color:white;
+}
+
+
+
 /* trade1 */
 #trade_record_section{
 	width:780px;
-	height:30px;
 	margin:15px 0 15px 15px;
 	color:gray;
+}
+#trade_record_section li{
+	height:30px;
 }
 #trade_record_section h6{
 	width:13px;
 	height:19px;
-	background-image:url(images/confirm/confirm_list.png);
+	background-image:url(confirm/confirm_list.png);
 	text-indent:-9999px;
 	margin:5px 0 0 5px;
 	display:inline-block;
@@ -924,6 +1081,16 @@ hr{
 #trade_record_section img{
 	float:right;
 	margin-right:20px;
+}
+
+ul.buy_record{
+	background-image:url(intro/nav_ask.png);
+}
+ul.sell_record{
+	background-image:url(intro/nav.png);
+}
+ul#nav{
+	margin-top:15px;
 }
 
 /* ready sell page*/
@@ -1175,5 +1342,42 @@ hr{
 	float:left;
 	margin-left:20px;
 }
-
-
+#trade_record_whisper{
+	margin-left:15px;
+}
+#trade_record_whisper p{
+	float:left;
+	display:inline-block;
+	padding-top:10px;
+}
+#trade_record_whisper h6{
+	float:left;
+	padding-top:15px;
+	text-align:left;
+	margin-left:10px;
+	display:inline-block;
+}
+#trade_record_whisper h5{
+	display:inline-block;
+	float:left;
+	padding-top:10px;
+}
+#trade_record_whisper br{
+	line-height:35px;
+}
+#whisper textarea{
+	width:700px;
+	border:1px solid #DDD;
+	padding:8px;
+	float:left;
+	margin-left:10px;
+}
+ul.trade_record_info{
+	background-image:url(nav_three.png);
+}
+ul.trade_record_whisper{
+	background-image:url(nav_three2.png);
+}
+ul.trade_record_evaluate{
+	background-image:url(nav_three3.png);
+}

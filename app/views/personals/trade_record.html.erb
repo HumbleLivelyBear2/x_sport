@@ -1,0 +1,72 @@
+<%= javascript_include_tag "trade_record_a.js"%>
+
+<div id="wrapper">
+
+		<div id="content">
+			<div id="contents">
+			<div id="left">			
+				<div id="personal_profile_section">
+					<div id="personal_section_top"><p>Jason Ko</p></div>
+					<div id="personal_picture">
+						<div id="photo_bg"><img src="/assets/member_about/person_photo.jpg" height="140" width="140"></div>
+						<div id="up_load_logo"><img src="/assets/personal_evaluation/up_load.png" height="29" width="34"></div>
+					</div>
+					<p><%= link_to('新品上架', :controller=>"personals", :action=>"ready_to_sell")%></p>
+					<p><%= link_to('我的商品', :controller=>"personals", :action=>"products")%></p>
+					<p><%= link_to('我的評價', :controller=>"personals", :action=>"evaluation")%></p>
+					<p><%= link_to('我的購買紀錄', :controller=>"personals", :action=>"trade_record")%></p>
+					<p><%= link_to('悄悄話', :controller=>"personals", :action=>"whisper")%></p>
+					<p><%= link_to('問與答', :controller=>"personals", :action=>"ask_answer")%></p>
+				</div>
+				<div id="fans_section">
+					<div id="fans_section_top"><p>成為X-Sport粉絲</p></div>
+				</div>
+			</div>
+			<div id="right">
+				<div class="pp">> 我的購買紀錄</div>
+				<div id="goods">
+					<div id="goods_top">
+						<div id="goods_top_p"><p>我的購買紀錄</p></div>
+					</div>
+
+					<!-- <div id="top_setting" style="margin-top:20px">
+											<p>買的紀錄</p>
+											<p>賣的紀錄</p>
+										</div>
+										<hr> -->
+					
+					<div id="trade_record_section">
+						<div id="sell_record_head">
+							<p>賣的紀錄</p>
+							<hr style='width:780px'>
+						</div>
+						<div id="sell_record">
+							sell record
+							<hr style="width:780px;">
+						</div>
+						
+						<div id="buy_record_head">
+							<p>買的紀錄</p>
+							<hr style='width:780px'>
+						</div>
+						<div id="buy_record">
+							<ul>
+								<li><h6>*</h6><p>2012/05/21 12:53:54 | 買家:Kevin | 商品名:OGK全新單車手套 | 金額:$550</p><img src="/assets/trade1/look_into.png"></li>
+								<li><h6>*</h6><p>2012/05/21 12:53:54 | 買家:Kevin | 商品名:OGK全新單車手套 | 金額:$550</p><img src="/assets/trade1/look_into.png"></li>
+								<hr style="width:780px;">
+							 </ul>
+						</div>
+						
+					</div>
+					
+					<div id="evaluation_bottom">
+						<p>近7天</p>
+						<p>近30天</p>
+						<p>全部</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>	
+
+</div>

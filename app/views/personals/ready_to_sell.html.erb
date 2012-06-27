@@ -1,0 +1,91 @@
+<div id="wrapper">
+
+		<div id="content">
+			<div id="contents">
+			<div id="left">
+
+				<div id="personal_profile_section">
+					<div id="personal_section_top"><p>Jason Ko</p></div>
+					<div id="personal_picture"><img src="/assets/member_about/person_photo.jpg" height="140" width="140"></div>
+					<p><%= link_to('新品上架', :controller=>"personals", :action=>"ready_to_sell")%></p>
+					<p><%= link_to('我的商品', :controller=>"personals", :action=>"products")%></p>
+					<p><%= link_to('我的評價', :controller=>"personals", :action=>"evaluation")%></p>
+					<p><%= link_to('我的購買紀錄', :controller=>"personals", :action=>"trade_record")%></p>
+					<p><%= link_to('悄悄話', :controller=>"personals", :action=>"whisper")%></p>
+					<p><%= link_to('問與答', :controller=>"personals", :action=>"ask_answer")%></p>
+				</div>
+				<div id="fans_section">
+					<div id="fans_section_top"><p>成為X-Sport粉絲</p></div>
+				</div>
+			</div>
+			<div id="right">
+				<div class="pp">> 關於Jason Ko</div>
+				<div id="goods">
+					<div id="goods_top">
+						<div id="goods_top_p"><p>關於Jason Ko</p></div>
+					</div>
+					<div id="ready_sell_section">
+						<div id="goods_name"><img src="/assets/ready_to_sell/product_name.png"><p>OGK單車運動手套</p></div>
+						<div id="goods_price"><img src="/assets/ready_to_sell/price.png"><p>$450</p></div>
+						<form id="ready_sell_form" action="#" method="post">
+							<div id="goods_illustrate"><img src="/assets/ready_to_sell/illustrate.png">
+								<textarea cols="20" rows="7" id="commentinput" name="comment"></textarea>							
+							</div>
+							<div id="up_load_pics">
+								<img src="/assets/ready_to_sell/upload_pics.png" style="margin-left:20px">
+								<img src="/assets/ready_to_sell/up_load.png">
+								<img src="/assets/ready_to_sell/preview.png" width="126" height="96">
+								<img src="/assets/ready_to_sell/preview.png" width="126" height="96">
+								<img src="/assets/ready_to_sell/preview.png" width="126" height="96">
+								<img src="/assets/ready_to_sell/preview.png" width="126" height="96">
+							</div>
+							<div id="new_or_old">
+								<img src="/assets/ready_to_sell/old_or_new.png">
+								<input type="radio" name="group1" value="new" checked><p>全新</p>
+								<input type="radio" name="group1" value="ord"><p>二手</p>
+							</div>
+							<div id="loc_select">
+								<img src="/assets/ready_to_sell/goods_loc.png">
+								<select>
+								  <option value="Taipei">台北市</option>
+								  <option value="NewTaipei">新北市</option>
+								  <option value="Kilong">基隆市</option>
+								  <option value="Taowen">桃園市</option>
+								</select>
+							</div>
+							<div id="payments_select">
+								<img src="/assets/ready_to_sell/payments.png">
+								<INPUT TYPE=CHECKBOX NAME="atm" style="margin-left:15px;"><p>ATM</p>
+								<INPUT TYPE=CHECKBOX NAME="in_face"><p>面交</p>
+								<INPUT TYPE=CHECKBOX NAME="pay_at_deliver"><p>貨到付款</p>
+								<INPUT TYPE=CHECKBOX NAME="other"><p>其他</p>
+								<input id="nameinput" name="other_content" type="text" style="margin-top:3px;">
+							</div>
+							<div id="deliver_select">
+								<img src="/assets/ready_to_sell/deliver_function.png">
+								<INPUT TYPE=CHECKBOX NAME="deliver_stamp" style="margin-left:15px;"><p>郵寄</p>
+								<INPUT TYPE=CHECKBOX NAME="deliver_ship"><p>貨運</p>
+								<INPUT TYPE=CHECKBOX NAME="deliver_house"><p>宅配</p>
+								<INPUT TYPE=CHECKBOX NAME="deliver_express"><p>快遞</p>
+								<INPUT TYPE=CHECKBOX NAME="deliver_inface"><p>面交</p>
+								<INPUT TYPE=CHECKBOX NAME="other"><p>其他</p>
+								<input id="nameinput" name="other_content" type="text" style="margin-top:3px;">
+							</div>
+							<div id="deliver_fee">
+								<img src="/assets/ready_to_sell/deliver_price.png">
+								<input type="radio" name="group2" value="on_need_fee" checked style="margin-left:15px;"><p>免運費</p>
+								<input type="radio" name="group2" value="need_fee"><p>需運費</p>
+							</div>
+							<div id="cancel_or_submit">
+								<p>Cancel</p>
+								<input id="submitinput" name="submit" value="送出" class="submit" type="submit">
+								<h6>*確定後不可修改</h6>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>	
+
+</div>
