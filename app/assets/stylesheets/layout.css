@@ -799,7 +799,7 @@ ul.ask_answers{
 	margin:10px 0 0 210px;
 }
 .evaluation_rec{
-	background-image:url(images/member_evaluation/rec102_72.png);
+	background-image:url(member_evaluation/rec102_72.png);
 	width:102px;
 	height:72px;
 	float:left;
@@ -870,7 +870,7 @@ ul.ask_answers{
 	margin-top:20px;
 }
 #evaluation_bottom p{
-	background-image:url(images/member_evaluation/main_bottom_bg.png);;
+	background-image:url(member_evaluation/main_bottom_bg.png);;
 	width:81px;
 	height:29px;
 	float:right;
@@ -1381,3 +1381,57 @@ ul.trade_record_whisper{
 ul.trade_record_evaluate{
 	background-image:url(nav_three3.png);
 }
+/* personal whisper*/
+#whisper_section{
+  width:100%;
+  height:600px;
+}
+/*#whisper_top{
+  margin-left:10px;
+  margin-top:10px;
+}*/
+
+#whisper_section{
+	width:780px;
+	margin:15px 0 15px 15px;
+	color:gray;
+}
+#whisper_section li{
+	height:30px;
+	margin-top:5px;
+}
+#whisper_section h6{
+	width:13px;
+	height:19px;
+	background-image:url(confirm/confirm_list.png);
+	text-indent:-9999px;
+	margin:5px 0 0 5px;
+	display:inline-block;
+	float:left;
+}
+#whisper_section p{
+	line-height:30px;
+	display:inline-block;
+	float:left;
+	margin-left:10px;
+	width:640px;
+	text-align:left;
+}
+#whisper_section li{
+	list-style-type:none;
+}
+#whisper_section img{
+	float:right;
+	margin-right:20px;
+}
+#whisper_top p{
+  width:90px;
+  height:41px;
+  background-image:url(bg_gray.png);
+  color:white;
+  line-height:41px;
+  display:inline-block;
+  float:left;
+  text-align:center;
+}
+
